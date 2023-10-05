@@ -14,6 +14,9 @@ This file contains settings about the URL of the site that will be tested, Selen
 
 **Hook File: `hooks.rb`**
 This file contains functions that will be called before or after each Scenario, with or without specified tags.
+
+**If you are getting the chrome version problem when running browser tests, download the last stable version of chromedrive here <a>https://googlechromelabs.github.io/chrome-for-testing/#stable</a>**
+
 <br>
 <br>
 <br>
@@ -31,3 +34,5 @@ Este arquivo contém configurações sobre a URL do site que será testado, o na
 
 **Arquivo de Hooks: `hooks.rb`**
 Este arquivo contém funções que serão chamadas antes ou depois de cada Cenario, com ou sem tags especificadas.
+
+**Se você estiver tendo problemas com a versão do Chrome ao executar testes do navegador, baixe a última versão estável do chromedrive aqui <a>https://googlechromelabs.github.io/chrome-for-testing/#stable</a>**
