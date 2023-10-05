@@ -27,7 +27,7 @@ Aprendendo o poder do Cucumber em paralelo com o RSpec, Capybara e Selenium como
   - `cucumber -t '@tag1 ou not @tag2'` -> executar o Cucumber em várias tags, exceto aquelas com "not" antes de `@nome_da_tag`
 
 **Arquivo de Configuração: `env.rb`**
-Este arquivo contém configurações sobre a URL do site que será testado, o navegador padrão do Selenium e o tempo máximo que o Capybara aguardará para que cada elemento seja visível na tela.
+Este arquivo contém configurações sobre a URL do site que será testado, o navegador padrão do Selenium e o tempo máximo que o Capybara aguardará para que cada elemento esteja visível na tela.
 
 **Arquivo de Hooks: `hooks.rb`**
 Este arquivo contém funções que serão chamadas antes ou depois de cada Cenario, com ou sem tags especificadas.
