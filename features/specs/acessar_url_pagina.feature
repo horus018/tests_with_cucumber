@@ -6,6 +6,9 @@
   @acessando_url
   Funcionalidade: Acessar a primeira url
 
-    Cenario: Acessar a url com sucesso.
-      Quando eu acesso a url
-      Entao eu verifico se estou na pagina correta
+    Contexto:
+      Dado que eu estou logado no sistema
+
+    Cenario: Cadastrar cliente no sistema
+      Quando eu vou pra listagem de clientes e clico em novo cliente
+      Entao depois de cadastrar um cliente ele deve aparecer na listagem de clientes
