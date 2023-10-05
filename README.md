@@ -16,8 +16,6 @@ This file contains settings about the URL of the site that will be tested, Selen
 This file contains functions that will be called before or after each Scenario, with or without specified tags.
 
 **If you are getting the chrome version problem when running browser tests, download the last stable version of chromedrive here <a>https://googlechromelabs.github.io/chrome-for-testing/#stable</a>**
-
-<br>
 <br>
 <br>
 **Portuguese:**<br>
