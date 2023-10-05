@@ -1,6 +1,6 @@
 # tests_with_cucumber
 
-**English:**
+**English:**<br>
 Learning the power of Cucumber in parallel with RSpec, Capybara, and Selenium as a web driver in a Ruby project.
 
 **Commands:**
@@ -14,11 +14,10 @@ This file contains settings about the URL of the site that will be tested, Selen
 
 **Hook File: `hooks.rb`**
 This file contains functions that will be called before or after each Scenario, with or without specified tags.
-
-
-
-
-**Portuguese:**
+<br>
+<br>
+<br>
+**Portuguese:**<br>
 Aprendendo o poder do Cucumber em paralelo com o RSpec, Capybara e Selenium como driver web em um projeto Ruby.
 
 **Comandos:**
