@@ -15,6 +15,9 @@ This file contains settings about the URL of the site that will be tested, Selen
 **Hook File: `hooks.rb`**
 This file contains functions that will be called before or after each Scenario, with or without specified tags.
 
+
+
+
 **Portuguese:**
 Aprendendo o poder do Cucumber em paralelo com o RSpec, Capybara e Selenium como driver web em um projeto Ruby.
 
