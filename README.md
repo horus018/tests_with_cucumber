@@ -1,6 +1,6 @@
 # tests_with_cucumber
 
-**English:**<br>
+**English:** <br>
 Learning the power of Cucumber in parallel with RSpec, Capybara, and Selenium as a web driver in a Ruby project.
 
 **Commands:**
@@ -18,9 +18,8 @@ This file contains functions that will be called before or after each Scenario, 
 **If you are getting the chrome version problem when running browser tests, download the last stable version of chromedrive here <a>https://googlechromelabs.github.io/chrome-for-testing/#stable</a>**
 
 <br>
-<br>
-<br>
-**Portuguese:**<br>
+
+**Portuguese:** <br>
 Aprendendo o poder do Cucumber em paralelo com o RSpec, Capybara e Selenium como driver web em um projeto Ruby.
 
 **Comandos:**
