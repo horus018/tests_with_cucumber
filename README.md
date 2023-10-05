@@ -31,5 +31,3 @@ Este arquivo contém configurações sobre a URL do site que será testado, o na
 
 **Arquivo de Hooks: `hooks.rb`**
 Este arquivo contém funções que serão chamadas antes ou depois de cada Cenario, com ou sem tags especificadas.
-
-<h1 style="color: red">testeee</h1>
