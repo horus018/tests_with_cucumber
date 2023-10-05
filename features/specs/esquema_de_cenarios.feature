@@ -1,4 +1,5 @@
 #language: pt
+@esquema_de_cenarios
 Funcionalidade: Verificação de dados em tabelas
 
   Esquema do Cenario: Comer

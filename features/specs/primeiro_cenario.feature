@@ -2,7 +2,7 @@
 
 #Só pode uma funcionalidade por feature
 #Pode ter várias regras e vários cenarios
-
+@primeiro_cenario
 Funcionalidade: Fazer uma soma
   -Eu como usuário
   -Quero fazer uma soma

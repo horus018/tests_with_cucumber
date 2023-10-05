@@ -1,4 +1,5 @@
 #language: pt
+@datatable
 Funcionalidade: Trabalhar com dadatables
   Em linhas e depois em colunas
 
@@ -17,5 +18,5 @@ Funcionalidade: Trabalhar com dadatables
     Entao eu verifico quantos dividendos a menos eu fiquei
 
 # Porque eu não coloco o mesmo texto na keyword 'Entao' pros dois 'Cenarios'???
-# Exemplo: Entao eu verifico quantos dividedendos eu tenho
+# Exemplo: Entao eu verifico quantos dividendos eu tenho
 # Porquê o cucumber reclama que eu estou repetindo o mesmo texto!!!
