@@ -5,7 +5,12 @@
 
 #o before é executado antes de cada cenário do projeto todo
 Before do
-  puts 'estou sendo chamado antes de cada cenário'
+  visit '/'
+  fill_in 'user_email', with: 'rubira820@gmail.com'
+  fill_in 'user_password', with: '123456'
+  click_button 'Acessar'
+  find('.bootbox-close-button.close').click
+
   @variavel_global = 3
   #só usar essa variavel em qualquer cenario do projeto sem instanciar ela q ele puxa daqui
 end
