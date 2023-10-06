@@ -15,7 +15,9 @@ This file contains settings about the URL of the site that will be tested, Selen
 **Hook File: `hooks.rb`**
 This file contains functions that will be called before or after each Scenario, with or without specified tags.
 
-**If you are getting the chrome version problem when running browser tests, download the last stable version of chromedrive here <a>https://googlechromelabs.github.io/chrome-for-testing/#stable</a>**
+**If you are getting the chrome version problem when running browser tests, download the last stable version of chromedrive here https://googlechromelabs.github.io/chrome-for-testing/#stable**
+
+**If you want to see reports from all your tests, go to https://reports.cucumber.io/ login with github, take your publish token and then before the cucumber command, put your key. ex.** `CUCUMBER_PUBLISH_TOKEN=yourPublishTokenHere cucumber --tags @tag_name --publish`
 
 <br>
 
@@ -35,3 +37,5 @@ Este arquivo contém configurações sobre a URL do site que será testado, o na
 Este arquivo contém funções que serão chamadas antes ou depois de cada Cenario, com ou sem tags especificadas.
 
 **Se você estiver tendo problemas com a versão do Chrome ao executar testes do navegador, baixe a última versão estável do chromedrive aqui <a>https://googlechromelabs.github.io/chrome-for-testing/#stable</a>**
+
+**Se você quer ver relatórios de todos os seus testes, vá para https://reports.cucumber.io/ faça login com o github, pegue sua chave de publicação e antes do comando do cucumber, coloque sua chave. ex.** `CUCUMBER_PUBLISH_TOKEN=yourPublishTokenHere cucumber --tags @tag_name --publish`
