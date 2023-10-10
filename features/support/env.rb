@@ -1,6 +1,6 @@
 require 'capybara/cucumber'
 require 'selenium-webdriver'
-require 'webdrivers/chromedriver'
+require 'site_prism'
 
 Capybara.configure do |config|
   #selenium_chrome #selenium_chrome_headless
