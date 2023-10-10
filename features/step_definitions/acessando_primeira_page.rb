@@ -1,6 +1,7 @@
-Quando('acesso a url da primeira page') do
+Quando('acesso a url da primeira page e faço login') do
   @home = PrimeiraPage.new
   @home.load
+  @home.preencher
 end
 
 Entao('verifico se estou na página inicial') do
