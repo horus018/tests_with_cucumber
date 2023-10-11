@@ -1,8 +1,14 @@
 ---
 #tanto faz --profile ou -p é a mesma coisa
-default: --profile pretty -p homologacao
+default: --profile pretty -p homologacao -p chrome_headless
 
 pretty: --format pretty # formato da saida dos testes no console, assim é mais completo
 progress: --format progress # formato da saida dos testes no console, assim é mais resumido
 homologacao: AMBIENTE=homologacao
 producao: AMBIENTE=producao
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
+firefox: BROWSER=firefox
+firefox_headless: BROWSER=firefox_headless
+edge: BROWSER=edge
+safari: BROWSER=safari
