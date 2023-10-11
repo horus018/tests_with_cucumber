@@ -1,8 +1,8 @@
 Quando('acesso a url da primeira page e faço login') do
   # @home = PrimeiraPage.new
 
-  #não instancia mais a PrimeiraPage pois to usando
-  # no page_helper o metodo primeira_page q instancia ela pra mim
+  #não instancía mais a PrimeiraPage pois to usando
+  # no page_helper o metodo primeira_page q instancía ela pra mim
 
   primeira_page.load
   primeira_page.preencher

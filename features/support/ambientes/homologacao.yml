@@ -1,0 +1,4 @@
+# Aqui se precisar adicionar mais propriedades q serão usadas
+# nos ambientes de teste
+
+url_padrao: 'http://localhost:3000'

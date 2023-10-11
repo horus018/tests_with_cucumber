@@ -1,0 +1,8 @@
+---
+#tanto faz --profile ou -p é a mesma coisa
+default: --profile pretty -p homologacao
+
+pretty: --format pretty # formato da saida dos testes no console, assim é mais completo
+progress: --format progress # formato da saida dos testes no console, assim é mais resumido
+homologacao: AMBIENTE=homologacao
+producao: AMBIENTE=producao
