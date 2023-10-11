@@ -9,7 +9,7 @@ Dir[File.join(File.dirname(__FILE__), '../pages/*_page.rb')].each { |file| requi
 
 
 
-module c
+module PageObjects
   # Esse módulo faz o seguinte:
   # ele cria um metodo pra cada page, dentro ele retorna uma variavel
   # com uma instancia da page uma vez só, se a instancia ja existir
