@@ -7,7 +7,8 @@ class PrimeiraPage < SitePrism::Page
   element :password, '#user_password'
 
   def preencher
-    username.set 'rubira820@gmail.com'
+    # 'user@user.com'
+    username.set 'user@user.com'
     password.set '123456'
   end
 

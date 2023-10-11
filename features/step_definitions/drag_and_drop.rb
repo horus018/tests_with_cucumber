@@ -2,7 +2,7 @@ Quando('eu fizer login no sistema') do
   # Deixar navegador em tela cheia
   # page.windows[0].maximize
   visit '/'
-  fill_in 'user_email', with: 'rubira820@gmail.com'
+  fill_in 'user_email', with: 'user@user.com'
   fill_in 'user_password', with: '123456'
   click_button 'Acessar'
   find('.bootbox-close-button.close').click

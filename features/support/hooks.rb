@@ -6,7 +6,7 @@
 #o before é executado antes de cada cenário do projeto todo
 Before do
   visit '/'
-  fill_in 'user_email', with: 'rubira820@gmail.com'
+  fill_in 'user_email', with: 'user@user.com'
   fill_in 'user_password', with: '123456'
   click_button 'Acessar'
   find('.bootbox-close-button.close').click
